@@ -27,3 +27,6 @@ D:\Learn\Repos\AFI_Registration\AFI Registration Service\AFI Registration\obj\De
 D:\Learn\Repos\AFI_Registration\AFI Registration Service\AFI Registration\obj\Debug\net5.0\ref\AFI_Registration.dll
 D:\Learn\Repos\AFI_Registration\AFI Registration Service\AFI Registration\obj\Debug\net5.0\AFI_Registration.pdb
 D:\Learn\Repos\AFI_Registration\AFI Registration Service\AFI Registration\obj\Debug\net5.0\AFI_Registration.genruntimeconfig.cache
+D:\Learn\Repos\AFI_Registration\AFI Registration Service\AFI Registration\bin\Debug\net5.0\FluentValidation.dll
+D:\Learn\Repos\AFI_Registration\AFI Registration Service\AFI Registration\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+D:\Learn\Repos\AFI_Registration\AFI Registration Service\AFI Registration\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll

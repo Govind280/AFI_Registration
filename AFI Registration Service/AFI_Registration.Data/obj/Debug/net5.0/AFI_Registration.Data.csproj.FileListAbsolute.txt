@@ -1,0 +1,12 @@
+D:\Learn\Repos\AFI_Registration\AFI Registration Service\AFI_Registration.Data\bin\Debug\net5.0\AFI_Registration.Data.deps.json
+D:\Learn\Repos\AFI_Registration\AFI Registration Service\AFI_Registration.Data\bin\Debug\net5.0\AFI_Registration.Data.dll
+D:\Learn\Repos\AFI_Registration\AFI Registration Service\AFI_Registration.Data\bin\Debug\net5.0\ref\AFI_Registration.Data.dll
+D:\Learn\Repos\AFI_Registration\AFI Registration Service\AFI_Registration.Data\bin\Debug\net5.0\AFI_Registration.Data.pdb
+D:\Learn\Repos\AFI_Registration\AFI Registration Service\AFI_Registration.Data\obj\Debug\net5.0\AFI_Registration.Data.csprojAssemblyReference.cache
+D:\Learn\Repos\AFI_Registration\AFI Registration Service\AFI_Registration.Data\obj\Debug\net5.0\AFI_Registration.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learn\Repos\AFI_Registration\AFI Registration Service\AFI_Registration.Data\obj\Debug\net5.0\AFI_Registration.Data.AssemblyInfoInputs.cache
+D:\Learn\Repos\AFI_Registration\AFI Registration Service\AFI_Registration.Data\obj\Debug\net5.0\AFI_Registration.Data.AssemblyInfo.cs
+D:\Learn\Repos\AFI_Registration\AFI Registration Service\AFI_Registration.Data\obj\Debug\net5.0\AFI_Registration.Data.csproj.CoreCompileInputs.cache
+D:\Learn\Repos\AFI_Registration\AFI Registration Service\AFI_Registration.Data\obj\Debug\net5.0\AFI_Registration.Data.dll
+D:\Learn\Repos\AFI_Registration\AFI Registration Service\AFI_Registration.Data\obj\Debug\net5.0\ref\AFI_Registration.Data.dll
+D:\Learn\Repos\AFI_Registration\AFI Registration Service\AFI_Registration.Data\obj\Debug\net5.0\AFI_Registration.Data.pdb
