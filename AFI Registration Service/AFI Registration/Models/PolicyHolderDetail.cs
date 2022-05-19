@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AFI_Registration.Models
 {
-    public class PolicyHolderDetails
+    public class PolicyHolderDetail
     {
         public string FirstName { get; set; }
 

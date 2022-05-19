@@ -13,7 +13,7 @@ namespace AFI_Registration.Test
         public void PolicyHolder_HasRequired_Fields_Invalid_Details()
         {
             // Arrange
-            PolicyHolderDetails policyHolder = new() {
+            PolicyHolderDetail policyHolder = new() {
                 FirstName = "A",
                 LastName = "B",
                 PolicyReferenceNumber = "aa-123456",
@@ -38,7 +38,7 @@ namespace AFI_Registration.Test
         public void PolicyHolder_MisingRequired_Fields()
         {
             // Arrange
-            PolicyHolderDetails policyHolder = new();
+            PolicyHolderDetail policyHolder = new();
             var validator = new PolicyHolderDetailsValidator();
 
             // Act
@@ -57,7 +57,7 @@ namespace AFI_Registration.Test
         public void PolicyHolder_HasRequired_Fields_Valid_Details()
         {
             // Arrange
-            PolicyHolderDetails policyHolder = new()
+            PolicyHolderDetail policyHolder = new()
             {
                 FirstName = "John",
                 LastName = "Chapel",

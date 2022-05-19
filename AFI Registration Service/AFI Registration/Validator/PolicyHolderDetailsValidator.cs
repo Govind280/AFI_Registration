@@ -4,7 +4,7 @@ using System;
 
 namespace AFI_Registration.Validator
 {
-    public class PolicyHolderDetailsValidator: AbstractValidator<PolicyHolderDetails>
+    public class PolicyHolderDetailsValidator: AbstractValidator<PolicyHolderDetail>
     {
         /// <summary>
         /// Validator rules for PolicyHolderDetails
