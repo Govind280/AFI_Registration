@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "9g+PH6JjSyUIZfWdIFpdDqd9FZgbD99RNadBjG4Ka8TDFfmBX7I/4yAmKTVcavfqsBsTTIZqi4PNYcKDgaxrtg==",
+  "dgSpecHash": "frH/p96UEqh7aS8BOw8qo7s02UHUpQqV8dJVhe6E7iL62ANjmcsPxNBTnMfIlH6zhzIFTVhW+ZfA0+RuNcyswQ==",
   "success": true,
   "projectFilePath": "D:\\Learn\\Repos\\AFI_Registration\\AFI Registration Service\\AFI_Registration.Common\\AFI_Registration.Common.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Sewtha Mano\\.nuget\\packages\\fluentvalidation\\11.0.1\\fluentvalidation.11.0.1.nupkg.sha512",
+    "C:\\Users\\Sewtha Mano\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.0.1\\fluentvalidation.aspnetcore.11.0.1.nupkg.sha512",
+    "C:\\Users\\Sewtha Mano\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.0.1\\fluentvalidation.dependencyinjectionextensions.11.0.1.nupkg.sha512",
+    "C:\\Users\\Sewtha Mano\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

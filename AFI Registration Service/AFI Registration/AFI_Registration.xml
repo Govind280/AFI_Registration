@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AFI_Registration</name>
+    </assembly>
+    <members>
+        <member name="T:Payment_Gateway.Controllers.PaymentsController">
+            <summary>
+            Registration Controller contains all endpoints related to Registration
+            </summary>
+        </member>
+    </members>
+</doc>

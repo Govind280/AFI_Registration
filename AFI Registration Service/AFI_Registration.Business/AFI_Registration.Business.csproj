@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AFI_Registration.Common\AFI_Registration.Common.csproj" />
+    <ProjectReference Include="..\AFI_Registration.Data\AFI_Registration.Data.csproj" />
+  </ItemGroup>
+
 </Project>

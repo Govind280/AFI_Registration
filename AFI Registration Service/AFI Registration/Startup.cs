@@ -1,4 +1,7 @@
+using AFI_Registration.Business;
 using AFI_Registration.Data.Data;
+using AFI_Registration.Common.Validator;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -25,18 +28,21 @@ namespace AFI_Registration
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddControllers();
+            services.AddControllers()
+                .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<PolicyHolderDetailsValidator>());
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "AFI_Registration", Version = "v1" });
 
-                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-                c.IncludeXmlComments(xmlPath);
+                //var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                //var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                //c.IncludeXmlComments(xmlPath);
             });
 
             services.AddDbContextPool<PolicyHolderDetailsContext>(options => options.UseSqlServer(
                 Configuration.GetConnectionString("PaymentsContextConnectionString")));
+
+            services.AddTransient<IPolicyHolderRegistrationBusiness, PolicyHolderRegistrationBusiness>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

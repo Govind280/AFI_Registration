@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Learn\\Repos\\AFI_Registration\\AFI Registration Service\\AFI_Registration.Common.Test\\AFI_Registration.Common.Test.csproj": {}
+  },
+  "projects": {
+    "D:\\Learn\\Repos\\AFI_Registration\\AFI Registration Service\\AFI_Registration.Common.Test\\AFI_Registration.Common.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Learn\\Repos\\AFI_Registration\\AFI Registration Service\\AFI_Registration.Common.Test\\AFI_Registration.Common.Test.csproj",
+        "projectName": "AFI_Registration.Common.Test",
+        "projectPath": "D:\\Learn\\Repos\\AFI_Registration\\AFI Registration Service\\AFI_Registration.Common.Test\\AFI_Registration.Common.Test.csproj",
+        "packagesPath": "C:\\Users\\Sewtha Mano\\.nuget\\packages\\",
+        "outputPath": "D:\\Learn\\Repos\\AFI_Registration\\AFI Registration Service\\AFI_Registration.Common.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sewtha Mano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Learn\\Repos\\AFI_Registration\\AFI Registration Service\\AFI_Registration.Common\\AFI_Registration.Common.csproj": {
+                "projectPath": "D:\\Learn\\Repos\\AFI_Registration\\AFI Registration Service\\AFI_Registration.Common\\AFI_Registration.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.213\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Learn\\Repos\\AFI_Registration\\AFI Registration Service\\AFI_Registration.Common\\AFI_Registration.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Learn\\Repos\\AFI_Registration\\AFI Registration Service\\AFI_Registration.Common\\AFI_Registration.Common.csproj",
+        "projectName": "AFI_Registration.Common",
+        "projectPath": "D:\\Learn\\Repos\\AFI_Registration\\AFI Registration Service\\AFI_Registration.Common\\AFI_Registration.Common.csproj",
+        "packagesPath": "C:\\Users\\Sewtha Mano\\.nuget\\packages\\",
+        "outputPath": "D:\\Learn\\Repos\\AFI_Registration\\AFI Registration Service\\AFI_Registration.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Sewtha Mano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.213\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

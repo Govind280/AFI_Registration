@@ -16,7 +16,7 @@ namespace AFI_Registration.Data.Data
         {
             modelBuilder.HasSequence<int>("CustomerId", schema: "shared")
                 .StartsAt(1000)
-                .IncrementsBy(5);
+                .IncrementsBy(1);
 
             modelBuilder.Entity<PolicyHolderDetails>()
                 .Property(p => p.CustomerID)
